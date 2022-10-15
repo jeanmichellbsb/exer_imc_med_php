@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculo IMC</title>
+    <title>Calculadora de Média</title>
 </head>
 <body>
 
@@ -15,15 +15,15 @@
                     <div>
                         <br><br>
                             <label for="nome"> Informe o Nome do Aluno: </label>
-                            <input type="text" id="nome" name="nome">
+                            <input type="text" id="nome" name="nome" required>
                             <br><br>
 
                             <label for="nota1"> Informe a 1ª Nota: </label>
-                            <input type="text" id="nota1" name="nota1">
+                            <input type="text" id="nota1" name="nota1" required>
                             <br><br>
                     
                             <label for="nota2">Informe a 2ª Nota: </label>
-                            <input type="text" id="nota2" name="nota2">
+                            <input type="text" id="nota2" name="nota2" required>
                             <br><br><br>
                     
                             <input type="submit" value="Calcule a Média">
